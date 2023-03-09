@@ -1,0 +1,142 @@
+.body {
+    background-image: url(/assets/images/Left-Graphic.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    font-family: 'League Spartan', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr 3fr;
+    height: 899px;
+    width: 1440px;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "button1 button2 . .";
+    background-image: url(/assets/images/Group-16.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto 873px;
+}
+
+.header-section {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 38px;
+    width: 780px;
+    border-radius: 0px;
+    margin-top: 40px;
+    margin-left: 51px;
+}
+
+.textnav {
+    display: flex;
+    margin-left: 197px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #454545;
+}
+
+.menu1:hover,
+.menu2:hover,
+.menu3:hover {
+    text-decoration: underline;
+}
+
+.menu2,
+.menu3 {
+    margin-left: 65px;
+}
+
+.main-section {
+    grid-area: main;
+}
+
+.maintext1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 447px;
+    margin-bottom: 24px;
+    margin-left: 148px;
+    margin-top: 75px;
+    background: linear-gradient(180deg, #1B18F9 0%, #1B18F9 46.35%, #E146AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.maintext2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 171.5%;
+    max-width: 447px;
+    margin-left: 148px;
+    color: #454545;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.button1 {
+    grid-area: button1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 210px;
+    height: 69px;
+    margin-left: 148px;
+    top: 535px;
+    background: radial-gradient(255.8% 457.4% at 88.45% 24.64%, #C27FCF 0%, #0368FF 100%);
+    border-radius: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 146.5%;
+    color: #FFFFFF;
+}
+
+.button2 {
+    grid-area: button2;
+    display: flex;
+    padding-top: 20px;
+    height: 33px;
+    width: 210px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 129%;
+    background: linear-gradient(180deg, #1B18F9 0%, #1B18F9 46.35%, #E146AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logoplay {
+
+    height: 32px;
+    width: 32px;
+    margin-left: 27px;
+    margin-right: 12px;
+}
