@@ -1,5 +1,5 @@
 .body {
-    background-image: url(../../assets/images/LeftGraphic.png);
+    background-image: url(../images/LeftGraphic.png);
     background-position: bottom left;
     background-repeat: no-repeat;
     font-family: 'League Spartan', sans-serif;
@@ -20,7 +20,7 @@ a {
         "header header header header"
         "main main main main"
         "button1 button2 . .";
-    background-image: url(../../assets/images/Group-16.png);
+    background-image: url(../images/Group-16.png);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: auto 873px;
